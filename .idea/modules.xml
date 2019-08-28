@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/candcloud/candcloud.iml" filepath="$PROJECT_DIR$/candcloud/candcloud.iml" />
-      <module fileurl="file://$PROJECT_DIR$/rabbitmq/demo.iml" filepath="$PROJECT_DIR$/rabbitmq/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/studybymyself.iml" filepath="$PROJECT_DIR$/studybymyself.iml" />
     </modules>
