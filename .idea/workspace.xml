@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea290573-16c2-433c-8a89-fec02c2594e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candcloud/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/candcloud/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/java/com/ljj/demo/DemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq/src/test/java/com/ljj/demo/DemoApplicationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="1543">
+              <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1884">
-              <caret line="103" column="79" lean-forward="true" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
+            <state relative-caret-position="200">
+              <caret line="116" column="56" lean-forward="true" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#4258#4259#0" expanded="true" />
@@ -64,6 +46,19 @@
                 <element signature="e#7936#7937#0" expanded="true" />
                 <element signature="e#8778#8779#0" expanded="true" />
                 <element signature="e#8831#8832#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/CandcloudApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,7 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="-647" />
+    <option name="y" value="133" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
@@ -254,7 +250,7 @@
       <workItem from="1566138189201" duration="1252000" />
       <workItem from="1566178839236" duration="3423000" />
       <workItem from="1566375604965" duration="1194000" />
-      <workItem from="1566802969304" duration="40328000" />
+      <workItem from="1566802969304" duration="54541000" />
     </task>
     <task id="LOCAL-00001" summary="创建萤石云子账户">
       <created>1566872343517</created>
@@ -263,16 +259,23 @@
       <option name="project" value="LOCAL" />
       <updated>1566872343517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="接口提交">
+      <created>1566982389592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566982389592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46197000" />
+    <option name="totallyTimeSpent" value="60410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09168444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -283,7 +286,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.52895325" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.20044543" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38864142" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -339,19 +342,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="创建萤石云子账户" />
-    <option name="LAST_COMMIT_MESSAGE" value="创建萤石云子账户" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java</url>
-          <line>118</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="接口提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="接口提交" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/rabbitmq/HELP.md" />
@@ -417,17 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/CandcloudApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSON.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -481,10 +462,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/CandcloudApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1884">
-          <caret line="103" column="79" lean-forward="true" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
+        <state relative-caret-position="200">
+          <caret line="116" column="56" lean-forward="true" selection-start-line="116" selection-start-column="56" selection-end-line="116" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#4258#4259#0" expanded="true" />
@@ -501,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="146" lean-forward="true" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="1543">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="42" selection-end-line="78" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -34,12 +34,12 @@ public class CandCloudPortPackaging {
     public static void main(String[] args) throws IOException {
         System.out.println();
     }
-
-    /**
+/*
+    *//**
      * 创建子账户
      * @return
      * @throws IOException
-     */
+     *//*
     private static JSONObject createAccount(String accessToken,String accountName,String password) throws IOException {
         String param = "accessToken=" + accessToken + "&accountName=" + accountName + "&password=" + password;
         //创建http客户端
@@ -52,26 +52,8 @@ public class CandCloudPortPackaging {
         String content = EntityUtils.toString(response.getEntity(), "utf-8");
         JSONObject json = JSON.parseObject(content);
         return json;
-    }
+    }*/
 
-    /**
-     * 创建子账号
-     *
-     * @param accessToken 授权过程获取的access_token,主账号生成的access_token
-     * @param accountName 子账户名，4-40位英文字母、阿拉伯数字或下划线
-     * @param password    子账户密码，LowerCase(MD5(AppKey#密码明文))
-     * @return
-     */
-    public static JSONObject accountCreate(String accessToken, String accountName, String password) {
-        String url = "https://open.ys7.com/api/lapp/ram/account/create";
-        Map<String, String> map = new HashMap<>();
-        map.put("accessToken", accessToken);
-        map.put("accountName", accountName);
-        map.put("password", password);
-        String postData = OkHttpUtils.postData(url, map);
-        JSONObject jsonObject = JSON.parseObject(postData);
-        return jsonObject;
-    }
 
 
 
@@ -144,6 +126,25 @@ public class CandCloudPortPackaging {
         return jsonObject;
     }
 
+    /**
+     * 创建子账号
+     *
+     * @param accessToken 授权过程获取的access_token,主账号生成的access_token
+     * @param accountName 子账户名，4-40位英文字母、阿拉伯数字或下划线
+     * @param password    子账户密码，LowerCase(MD5(AppKey#密码明文))
+     * @return
+     */
+    @RequestMapping(value = "/account/create", method = RequestMethod.POST)
+    public static JSONObject accountCreate(String accessToken, String accountName, String password) {
+        String url = "https://open.ys7.com/api/lapp/ram/account/create";
+        Map<String, String> map = new HashMap<>();
+        map.put("accessToken", accessToken);
+        map.put("accountName", accountName);
+        map.put("password", password);
+        String postData = OkHttpUtils.postData(url, map);
+        JSONObject jsonObject = JSON.parseObject(postData);
+        return jsonObject;
+    }
 
 
     /**
@@ -151,9 +152,10 @@ public class CandCloudPortPackaging {
      *
      * @param accessToken       授权过程获取的access_token,主账号生成的access_token
      * @param accountId         子账户Id
-     * @param policy，语法结构详情查看文档
+     * @param policy，语法结构详情查看文档  https://open.ys7.com/doc/zh/book/index/account-policy.html#policy%E6%A0%B7%E4%BE%8B
      * @return
      */
+    @RequestMapping(value = "/policy/set", method = RequestMethod.POST)
     public static JSONObject policySet(String accessToken, String accountId, String policy) {
         String url = "https://open.ys7.com/api/lapp/ram/policy/set";
         Map<String, String> map = new HashMap<>();
@@ -173,6 +175,7 @@ public class CandCloudPortPackaging {
      * @param pageSize    分页大小，默认为10，最大为50
      * @return
      */
+    @RequestMapping(value = "/video/list", method = RequestMethod.POST)
     public static JSONObject videoList(String accessToken, String pageStart, String pageSize) {
         String url = "https://open.ys7.com/api/lapp/live/video/list";
         Map<String, String> map = new HashMap<>();
@@ -193,6 +196,7 @@ public class CandCloudPortPackaging {
      * @param expireTime   地址过期时间：单位秒数，最大默认62208000（即720天），最小默认300（即5分钟）。非必选参数，为空时返回对应设备和通道的永久地址
      * @return
      */
+    @RequestMapping(value = "/address/limited", method = RequestMethod.POST)
     public static JSONObject addressLimited(String accessToken, String deviceSerial, String channelNo, String expireTime) {
         String url = "https://open.ys7.com/api/lapp/live/address/limited";
         Map<String, String> map = new HashMap<>();
@@ -206,10 +210,24 @@ public class CandCloudPortPackaging {
     }
 
 
+    /**
+     * 获取B模式 子账户accessToken
+     *
+     * @param accessToken
+     * @param accountId
+     * @return
+     */
+    @RequestMapping(value = "/account/token", method = RequestMethod.POST)
+    public static JSONObject accountToken(String accessToken, String accountId) {
+        String url = "https://open.ys7.com/api/lapp/ram/token/get";
+        Map<String,String> map = new HashMap<>();
+        map.put("accessToken",accessToken);
+        map.put("accountId",accountId);
+        String postData = OkHttpUtils.postData(url,map);
+        JSONObject jsonObject = JSON.parseObject(postData);
+        return jsonObject;
 
-
-
-
+    }
 
 
 
