@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea290573-16c2-433c-8a89-fec02c2594e6" name="Default Changelist" comment="接口提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,11 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4564">
-              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="74" column="61" lean-forward="true" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -34,12 +32,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="159" column="108" lean-forward="true" selection-start-line="159" selection-start-column="108" selection-end-line="159" selection-end-column="108" />
+            <state relative-caret-position="3675">
+              <caret line="170" column="61" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5311#5312#0" expanded="true" />
                 <element signature="e#5368#5369#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/CandcloudApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#333#334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,8 +77,8 @@
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/Result.java" />
         <option value="$PROJECT_DIR$/candcloud/pom.xml" />
-        <option value="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" />
         <option value="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java" />
+        <option value="$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java" />
       </list>
     </option>
   </component>
@@ -93,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -150,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +248,8 @@
       <workItem from="1566375604965" duration="1194000" />
       <workItem from="1566802969304" duration="54541000" />
       <workItem from="1567158321305" duration="5494000" />
+      <workItem from="1567497546474" duration="819000" />
+      <workItem from="1568872531961" duration="2023000" />
     </task>
     <task id="LOCAL-00001" summary="创建萤石云子账户">
       <created>1566872343517</created>
@@ -261,17 +272,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567158347149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="接口提交">
+      <created>1567497606757</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1567497606757</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65904000" />
+    <option name="totallyTimeSpent" value="68746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15724947" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1684435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -293,7 +311,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.033407573" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="14" sideWeight="0.49946696" visible="true" weight="0.1481069" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -435,8 +453,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/CandcloudApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="275">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
             <element signature="e#262#263#0" expanded="true" />
             <element signature="e#333#334#0" expanded="true" />
@@ -446,21 +464,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/CandCloudPortPackaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4564">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="375">
+          <caret line="74" column="61" lean-forward="true" selection-start-line="74" selection-start-column="61" selection-end-line="74" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/candcloud/src/main/java/com/studybymyself/candcloud/util/OkHttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="159" column="108" lean-forward="true" selection-start-line="159" selection-start-column="108" selection-end-line="159" selection-end-column="108" />
+        <state relative-caret-position="3675">
+          <caret line="170" column="61" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5311#5312#0" expanded="true" />
             <element signature="e#5368#5369#0" expanded="true" />
           </folding>
         </state>
